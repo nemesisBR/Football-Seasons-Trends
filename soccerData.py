@@ -4,14 +4,14 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-country = pd.read_csv(r'F:\Udacity\Data Analyst ND\Country.csv')
-league = pd.read_csv(r'F:\Udacity\Data Analyst ND\League.csv')
-match = pd.read_csv(r'F:\Udacity\Data Analyst ND\Match.csv')
-playeratt = pd.read_csv(r'F:\Udacity\Data Analyst ND\Player_Attributes.csv')
-player = pd.read_csv(r'F:\Udacity\Data Analyst ND\Player.csv')
-team = pd.read_csv(r'F:\Udacity\Data Analyst ND\Team.csv')
-teamatt = pd.read_csv(r'F:\Udacity\Data Analyst ND\Team_Attributes.csv')
-sqlite = pd.read_csv(r'F:\Udacity\Data Analyst ND\sqlite_sequence.csv')
+country = pd.read_csv('Country.csv')
+league = pd.read_csv('League.csv')
+match = pd.read_csv('Match.csv')
+playeratt = pd.read_csv('Player_Attributes.csv')
+player = pd.read_csv('Player.csv')
+team = pd.read_csv('Team.csv')
+teamatt = pd.read_csv('Team_Attributes.csv')
+sqlite = pd.read_csv('sqlite_sequence.csv')
 
 
 #---------------User Defined Functions----------------
